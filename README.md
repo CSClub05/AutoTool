@@ -1,6 +1,6 @@
 # Auto Tool for Minecraft 1.21.4
 
-A lightweight, client-side Fabric mod that automatically selects the best tool in your hotbar when you begin or continue mining a block.
+A client-side Fabric mod that automatically selects the best tool in your hotbar when you begin or continue mining a block.
 
 ## Features
 
@@ -36,12 +36,6 @@ gradle build
 
 The remapped mod jar will be written to `build/libs/autotool-1.0.0.jar`.
 
-## Install
-
-1. Install Fabric Loader for Minecraft 1.21.4.
-2. Build the project or obtain the built jar.
-3. Put `autotool-1.0.0.jar` in the Minecraft `mods` folder.
-4. Start the Fabric 1.21.4 profile.
 
 ## Controls
 
