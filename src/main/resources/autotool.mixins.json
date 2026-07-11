@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.xpermgaming.autotool.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayerInteractionManagerMixin",
+    "KeyboardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

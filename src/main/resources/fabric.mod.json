@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "autotool",
+  "version": "${version}",
+  "name": "Auto Tool",
+  "description": "Automatically selects the best hotbar tool for the block being mined.",
+  "authors": [
+    "Jeff L"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.xpermgaming.autotool.AutoToolClient"
+    ]
+  },
+  "mixins": [
+    "autotool.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "=1.21.4",
+    "java": ">=21"
+  }
+}
